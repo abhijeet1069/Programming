@@ -1,9 +1,5 @@
 package com.satyam.generics.wildcards;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * List<?> is read-only — you can’t add anything except null.
  * */

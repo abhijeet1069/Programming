@@ -10,7 +10,7 @@ Generics allow you to define classes, interfaces and methods with type parameter
 - Can’t instantiate a generic type: new T() ❌
 - Can’t use primitives as type arguments (List<int> ❌).
 - Can’t use instanceof with generic types (if (obj instanceof Box<String>) ❌).
-- Type information is erased at runtime (no reified generics). 
+- Type information is erased at runtime. 
 
 ##  Useful Generic Utility Classes in Java
 	
@@ -18,4 +18,5 @@ Generics allow you to define classes, interfaces and methods with type parameter
 - Comparator<T> — functional interface for sorting.
 - Stream<T> — collection-like data pipeline.
 - Function<T,R>, Predicate<T>, Supplier<T>, Consumer<T> — for functional programming.
+
 
